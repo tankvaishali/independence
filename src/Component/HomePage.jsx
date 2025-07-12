@@ -3,6 +3,13 @@ import React from 'react'
 // import Titlecom from '../HOC/Titlecom'
 import { Link } from 'react-router-dom'
 import Host from './Host'
+import TicketsCard from './TicketsCard.jsx'
+import Footer from './Footer.jsx'
+import Sponser from './Sponser.jsx'
+import Photos from './Photos.jsx'
+import EventGift from './Aboutus.jsx'
+import About from './Aboutus.jsx'
+
 function HomeCarousel() {
     return (
         <>
@@ -14,7 +21,8 @@ function HomeCarousel() {
                             <div className='text-center '>
                                 <img src={require("../assets/images/2.png")} alt="" className='img-fluid  ' width={150}/>
                             </div>
-                                <h1 className=' pt-4 fw-bold  text-center animate__animated tricolor-text'>आज़ादी का रंग, फौजी के संग |</h1>
+                                <h1 className=' pt-4 fw-bold  text-center animate__animated tricolor-text'>आज़ादी का रंग, फौजी के संग  
+                                2.0 </h1>
                                
                             </div>
                         </div>
@@ -26,6 +34,12 @@ function HomeCarousel() {
             </div>
     
 <Host/>
+<Photos/>
+<TicketsCard/>
+<Sponser/>
+{/* <About/> */}
+<Footer/>
+
         </>
     )
 }

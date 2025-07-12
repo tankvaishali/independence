@@ -74,27 +74,26 @@
 // }
 
 // export default Host;
-
-
+import "./Hostsec.css"
 const Host = () => {
 
   const highlights = [
     {
       icon: "🎯",
       title: "Professional Experience",
-      desc: "8+ years in radio and event hosting",
+      desc: "5+ years in  event hosting",
       colorClass: "highlight-orange",
     },
     {
       icon: "🏆",
       title: "Award Winner",
-      desc: "Best Radio Jockey Award 2023",
+      desc: "Best motivational speaker",
       colorClass: "highlight-yellow",
     },
     {
       icon: "❤️",
       title: "Community Connect",
-      desc: "Strong connection with local community",
+      desc: "Strong connection with  community",
       colorClass: "highlight-green",
     },
   ]
@@ -122,9 +121,9 @@ const Host = () => {
             <span>⭐ Independence Day Event 2025  ✨</span>
           </div>
           <h1 className="main-title">
-            Meet Your <span className="text-orange">Event</span> <span className="text-green">Host</span>
+            Meet Your Event Host
           </h1>
-          <div className="title-underline"></div>
+          {/* <div className="title-underline"></div> */}
         </div>
 
         <div className="row align-items-center mt-4">
@@ -137,7 +136,7 @@ const Host = () => {
               <div className="profile-image-container">
                 <div className="profile-ring"></div>
                 <div className="profile-image">
-                  <img src={require("../assets/images/11.jpg")} alt="RJ Akash Profile" className="img-fluid" style={{ objectPosition: "top center" }} />
+                  <img src={require("../assets/images/gopal dave.jpeg")} alt="RJ Akash Profile" className="img-fluid" style={{ objectPosition: "top center" }} />
                 </div>
 
                 {/* Badge */}
@@ -147,7 +146,7 @@ const Host = () => {
 
                 {/* Floating Stats */}
                 <div className="floating-stat stat-1">
-                  <span>👥 8+ Years</span>
+                  <span>👥 5+ Years</span>
                 </div>
                 <div className="floating-stat stat-2">
                   <span>📅 100+ Events</span>
@@ -157,9 +156,9 @@ const Host = () => {
               {/* Name and Title */}
               <div className="text-center profile-info">
                 <h2 className="profile-name">
-                  <span className="name-rj">RJ</span> <span className="name-akash">AKASH</span>
+   Gopal Dave
                 </h2>
-                <p className="profile-subtitle">Radio Jockey & Event Host</p>
+              
                 <p className="profile-quote">"Bringing patriotic spirit to every celebration"</p>
 
                 {/* Tricolor Line */}
@@ -172,8 +171,8 @@ const Host = () => {
 
               {/* Action Buttons */}
               <div className="d-lg-flex d-md-flex gap-3 mt-4">
-                <button className="btn btn-custom btn-orange flex-fill w-100">📻 Radio FM</button>
-                <button className="btn btn-custom btn-green flex-fill w-100 mt-3 mt-lg-0 mt-md-0">🎤 Event Host</button>
+                <div className="btn btn-custom btn-orange flex-fill w-100"> Motivational Speaker </div>
+                <div className="btn btn-custom btn-green flex-fill w-100 mt-3 mt-lg-0 mt-md-0"> Event Host</div>
               </div>
             </div>
           </div>
@@ -182,26 +181,26 @@ const Host = () => {
           <div className="col-lg-7">
             <div className="content-card p-4">
               {/* Header */}
-              <div className="content-header">
+              {/* <div className="content-header">
                 <h3 className="content-title">
                   About Our <span className="text-orange">Independence Day</span>{" "}
                   <span className="text-green">Event Host</span>
                 </h3>
                 <div className="content-underline"></div>
-              </div>
+              </div> */}
 
               {/* Description */}
               <div className="description-section">
                 <div className="description-card orange-card mt-4">
                   <p className="pera mt-2 p-3">
-                    Our Independence Day celebration will be hosted by <strong className="text-orange">RJ Akash</strong>
+                    Our Independence Day celebration will be hosted by <strong className="text-orange">Gopal Dave</strong>
                     , a passionate radio jockey who brings the spirit of patriotism to every event. Known for his
                     engaging personality and deep love for our nation, he connects with audiences of all ages.
                   </p>
                 </div>
                 <div className="description-card green-card my-3">
                   <p className="pera p-3">
-                    With over 8 years of experience in radio and event hosting, RJ Akash has been the voice behind
+                    With over 5 years of experience in motivational speaker and event hosting, Gopal Dave has been the voice behind
                     numerous Independence Day celebrations across the country. His enthusiasm for national pride and
                     cultural heritage makes him the perfect choice for our festivities.
                   </p>
@@ -231,9 +230,9 @@ const Host = () => {
                   <span>⭐</span>
                 </div>
                 <p className="message-text">
-                  "Join us as we celebrate the spirit of freedom and unity with RJ Akash on this Independence Day!"
+                  "Join us as we celebrate the spirit of freedom and unity with   Gopal Dave on this Independence Day!"
                 </p>
-                <div className="message-footer">🇮🇳 Jai Hind! 🇮🇳</div>
+                <div className="message-footer">🇮🇳 Jai Hind! </div>
               </div>
             </div>
           </div>
