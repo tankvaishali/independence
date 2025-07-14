@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 
 .pera {
@@ -99,50 +100,44 @@ button:hover::before {
 }
 /* Homecarousel end */
 /* about us start */
-.about-section {
-  background-image: url("https://washstrip.vercel.app/static/media/whychooseus_enhanced.1fc073da4348ef597adf.png");
+.clientmain{
+   background-image: url('./assets/images/TOKR9718.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: 0;
+  background-position: center center;
+  box-shadow: inset 0px 0px 0px 1500px rgba(0, 15, 29, 0.822);
 }
-.bubble {
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0.2;
-  z-index: 0;
-  animation: float 10s infinite ease-in-out;
+
+.client_bg {
+  width: 80%;
+  height: 450px;
+  background-color: rgba(189, 189, 189, 0.518);
 }
-.bubble1 {
-  width: 100px;
-  height: 100px;
-  top: 15%;
-  left: 10%;
-  background-color: #f97316;
+.client_image {
+  width: 90%;
+  border: 8px groove white;
 }
-.bubble2 {
-  width: 120px;
-  height: 120px;
-  bottom: 10%;
-  right: 20%;
-  background-color: #fbbf24;
-}
-.bubble3 {
-  width: 70px;
-  height: 70px;
-  top: 35%;
-  left: 70%;
-  background-color: #16a34a;
-}
-@keyframes float {
-  0% {
-    transform: translateY(0);
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .client_bg, .client_image img{
+    height: 300px;
   }
-  50% {
-    transform: translateY(-30px);
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .clientmain {
+    width: 100% !important;
   }
-  100% {
-    transform: translateY(0);
+}
+@media screen and (max-width: 576px) {
+  .contact-service-area {
+    margin:0px;
+  }
+}
+@media screen and  (max-width: 450px) {
+  .client_bg {
+    height: 300px !important;
+  }
+  .client_image {
+    margin-top: 138px !important;
   }
 }
 /* about us end */

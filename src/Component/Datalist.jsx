@@ -60,7 +60,7 @@ const Datalist = () => {
     if (loading) {
         return (
             <div className="text-center mt-4 d-flex justify-content-center align-items-center vh-100">
-                <img src={require("../assets/images/0.jpg")} alt="Loading..." className='img-fluid object-fit-contain' />
+                <img src="https://cdn.dribbble.com/userupload/22076800/file/original-8e7ce77dec0edaf0105e8287038f6e60.gif" alt="Loading..." className='img-fluid object-fit-contain ' />
             </div>
         );
     }

@@ -8,7 +8,8 @@ import Footer from './Footer.jsx'
 import Sponser from './Sponser.jsx'
 import Photos from './Photos.jsx'
 import EventGift from './Aboutus.jsx'
-import About from './Aboutus.jsx'
+
+import Aboutus from './Aboutus.jsx'
 
 function HomeCarousel() {
     return (
@@ -34,10 +35,10 @@ function HomeCarousel() {
             </div>
     
 <Host/>
+<Aboutus/>
 <Photos/>
 <TicketsCard/>
 <Sponser/>
-{/* <About/> */}
 <Footer/>
 
         </>

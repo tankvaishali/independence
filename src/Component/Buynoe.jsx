@@ -111,25 +111,25 @@ function Buynow() {
                                         <div className="rounded-circle col-3">
                                             <img src={require('../assets/images/2.png')} className="img-fluid object-fit-cover rounded-circle" alt="" />
                                         </div>
-                                        <div className="title fs-4 ps-1 col-8 gujfont">Social Army Trust</div>
+                                        <div className="title fs-4 ps-1 col-8 ">Social Army Trust</div>
                                     </div>
-                                    <div className="title fs-3 mt-3 mb-2 gujfont">Independance Day Event In Surat</div>
+                                    <div className="title fs-3 mt-3 mb-2 "><span className="text-success fw-bold">Independance Day Event</span> In Surat</div>
                                     <div className="rounded" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
                                     <div className="my-3">
-                                        <div><span className="fw-bold gujfont">Date :</span> 15 Augest 2025</div>
-                                        <div className="my-1"><span className="fw-bold gujfont">Time :</span> 08:00 PM to 11:30 PM</div>
-                                        <div><span className="fw-bold gujfont">Venue :</span> Sampada Festivity, Kosmada Ring Road, Surat. </div>
+                                        <div><span className="fw-bold ">Date :</span> 15 Augest 2025</div>
+                                        <div className="my-1"><span className="fw-bold ">Time :</span> 08:00 PM to 11:30 PM</div>
+                                        <div><span className="fw-bold ">Venue :</span> Sampada Festivity, Kosmada Ring Road, Surat. </div>
                                     </div>
                                     <div className="w-100 h-100">
-                                        <img src={require("../assets/images/independence_hero.jpg")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
+                                        <img src={require("../assets/images/2.0.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
                                     </div>
                                     <div className="my-3">
-                                        <div className="fw-bold gujfont">Contact Us :</div>
+                                        <div className="fw-bold ">Contact Us :</div>
                                         <Link to={"mailto:official@socialarmytrust.com"} className="text-decoration-none text-dark contact_menu">
-                                            <div className="my-1"><IoMail className="me-2 gujfont" /> <span>official@socialarmytrust.com</span></div>
+                                            <div className="my-1 "><IoMail className="me-2  text-success" /> <span>official@socialarmytrust.com</span></div>
                                         </Link>
                                         <Link to={"tel:+91 90676 65653"} className="text-decoration-none text-dark contact_menu">
-                                            <div><MdCall className="me-2 gujfont" /> <span>+91 90676 65653</span></div>
+                                            <div><MdCall className="me-2  text-success" /> <span>+91 90676 65653</span></div>
                                         </Link>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ function Buynow() {
                                 <div className="h-100">
                                     <div className="bg-white shadow p-4">
                         
-                                        <div className="title fs-5 gujfont fw-bold"> <span className="text-orange">Independance Day</span> Event Registration Form 🧡🤍💚</div>
+                                        <div className="title fs-5  fw-bold"> <span className="text-orange">Independance Day</span> Event Registration Form 🧡🤍💚</div>
                                         <div className="rounded mt-2" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
                             
 
@@ -210,7 +210,7 @@ function Buynow() {
                                             <Link to={""} className="text-decoration-none">
                                        
 
-                                                <button className="buttons btns w-100 btn  " type="button" onClick={savedata} style={{ fontFamily: "Sora, Sans-serif", fontWeight: 700 }}>Submit</button>
+                                                <button className="buttons btns w-100 btn text-white " type="button" onClick={savedata} style={{ fontFamily: "Sora, Sans-serif", fontWeight: 700,backgroundColor:"#001041" }}>Submit</button>
                                             </Link>
                                         </div>
                                     </div>

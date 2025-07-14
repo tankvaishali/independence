@@ -191,10 +191,10 @@ const Host = () => {
 
               {/* Description */}
               <div className="description-section">
-                <div className="description-card orange-card mt-4">
-                  <p className="pera mt-2 p-3">
+                <div className="description-card orange-card ">
+                  <p className="pera  p-3">
                     Our Independence Day celebration will be hosted by <strong className="text-orange">Gopal Dave</strong>
-                    , a passionate radio jockey who brings the spirit of patriotism to every event. Known for his
+                    , a passionate speaker who brings the spirit of patriotism to every event. Known for his
                     engaging personality and deep love for our nation, he connects with audiences of all ages.
                   </p>
                 </div>
