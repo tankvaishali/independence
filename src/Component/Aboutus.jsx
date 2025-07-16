@@ -8,8 +8,8 @@ function Aboutus() {
             <div className=' overflow-hidden'>
                 <div className='clientmain_bg'>
                     <div className='container'>
-                        <div className="row align-items-center align-content-center justify-content-center py-5 gx-5">
-                            <div className=' col-lg-7 col-sm-12  z-2 pb-4' data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
+                        <div className="row align-items-center align-content-center justify-content-center gx-5 pt-5 py-4">
+                            <div className=' col-lg-7 col-sm-12  z-2' data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
                                 <div className="independence-badge mb-3">
                                     <span>⭐ About
                                         Col. Rajeev Bharwan ✨</span>

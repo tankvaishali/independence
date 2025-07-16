@@ -149,7 +149,7 @@ const Host = () => {
           </div>
         </div> */}
 
-        <div className='row'>
+        <div className='row mt-2'>
           {imageList.map((image, index) => (
             <div className='col-12 col-lg-4 p-3' key={index}>
               <div className='h-100'>
