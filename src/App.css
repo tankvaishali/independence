@@ -9,7 +9,7 @@
   font-size: 14px !important;
 }
 /* buttonhover start */
-/* From Uiverse.io by aboalsim114 */ 
+/* From Uiverse.io by aboalsim114 */
 button {
   padding: 0.8em 1.8em;
   border: 2px solid #fff;
@@ -19,12 +19,14 @@ button {
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
-  transition: .3s;
+  transition: 0.3s;
   z-index: 1;
   font-family: inherit;
   color: rgb(0, 0, 43) !important;
   border-radius: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 button::after {
@@ -41,7 +43,6 @@ button::after {
   justify-content: center;
   transition: all 800ms ease-in-out;
   z-index: -1;
-
 }
 
 button::before {
@@ -57,7 +58,6 @@ button::before {
   justify-content: center;
   transition: all 800ms ease-in-out;
   z-index: -1;
-
 }
 
 button:hover::after {
@@ -70,7 +70,7 @@ button:hover::before {
 /* buttonhover end */
 /* Homecarousel start */
 .carobgimg {
-  background-image: url('./assets/images/9.jpg');
+  background-image: url("./assets/images/9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -85,59 +85,75 @@ button:hover::before {
   font-size: 100px;
 }
 
-
 @media screen and (max-width: 961px) {
- .tricolor-text {
-  
-  font-size: 60px;
-}
+  .tricolor-text {
+    font-size: 60px;
+  }
 }
 @media screen and (max-width: 551px) {
- .tricolor-text {
-  
-  font-size: 50px;
-}
+  .tricolor-text {
+    font-size: 50px;
+  }
 }
 /* Homecarousel end */
 /* about us start */
-.clientmain{
-   background-image: url('./assets/images/TOKR9718.jpg');
+.clientmain_bg {
+  background-image: url("./assets/images/TOKR9718.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   box-shadow: inset 0px 0px 0px 1500px rgba(0, 15, 29, 0.822);
 }
-
+.clientmain {
+  background-color: var(--dark--);
+  position: relative;
+}
 .client_bg {
   width: 80%;
-  height: 450px;
-  background-color: rgba(189, 189, 189, 0.518);
+  height: 380px;
+  background-color: rgba(110, 109, 109, 0.518);
+  z-index: 1;
+  position: relative;
 }
 .client_image {
   width: 90%;
   border: 8px groove white;
+  z-index: 2;
+  position: relative;
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .client_bg, .client_image img{
-    height: 300px;
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .client_bg,
+  .client_image img {
+    height: 370px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .clientmain {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .clientmain,
+  .client_image img {
     width: 100% !important;
+  }
+  .client_bg,
+  .client_image img {
+    height: 370px;
   }
 }
 @media screen and (max-width: 576px) {
   .contact-service-area {
-    margin:0px;
+    margin: 0px;
   }
 }
-@media screen and  (max-width: 450px) {
-  .client_bg {
+@media screen and (max-width: 450px) {
+  .client_bg,
+  .client_image img {
     height: 300px !important;
   }
   .client_image {
-    margin-top: 138px !important;
+    margin-top: 80px !important;
+  }
+  .clientmain,
+  .client_image img {
+    width: 100% !important;
   }
 }
 /* about us end */
@@ -258,9 +274,8 @@ button:hover::before {
 }
 /* projects end */
 
-
 /* ticketcard start */
-.ticket_bg{
+.ticket_bg {
   box-shadow: inset rgba(0, 0, 0, 0.58) 0px 0px 0px 1500px;
   background-image: url("https://t3.ftcdn.net/jpg/08/65/31/22/360_F_865312261_Pegp3yzF42HDZpzHVKFLKUv5dH89OlYJ.jpg");
   background-repeat: no-repeat;
@@ -296,7 +311,6 @@ button:hover::before {
 }
 
 @media (max-width: 991px) {
-
   .TicketForm_bg::before,
   .TicketForm_bg::after {
     content: none;
@@ -325,10 +339,13 @@ button:hover::before {
 .shape {
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(45deg, rgba(0, 56, 19, 0.1), rgba(0, 56, 19, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(0, 56, 19, 0.1),
+    rgba(0, 56, 19, 0.1)
+  );
   animation: float 6s ease-in-out infinite;
 }
-
 
 .shape-1 {
   width: 100px;
@@ -371,10 +388,7 @@ button:hover::before {
   animation-delay: 4s;
 }
 
-
-
 @keyframes float {
-
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -414,9 +428,7 @@ button:hover::before {
   box-shadow: 0 4px 15px rgba(255, 37, 37, 0.3);
 }
 
-
 @keyframes gradient-shift {
-
   0%,
   100% {
     background-position: 0% 50%;
@@ -467,7 +479,11 @@ button:hover::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255, 37, 37, 0.05) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 37, 37, 0.05) 0%,
+    transparent 70%
+  );
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -477,8 +493,8 @@ button:hover::before {
   opacity: 1;
 }
 /* photos start */
-.photos_bg{
-   background-image: url("https://www.tharayilpower.com/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg");
+.photos_bg {
+  background-image: url("https://www.tharayilpower.com/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg");
   box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.466);
   position: relative;
   overflow: hidden;
@@ -577,7 +593,6 @@ button:hover::before {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -634,7 +649,7 @@ button:hover::before {
   box-shadow: inset rgba(0, 0, 0, 0.58) 0px 0px 0px 1500px;
   background-image: url("https://ganeshhousing.com/assets/main/images/blog/blog40_1.jpg");
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   /* background-attachment: fixed; */
   background-size: cover;
 }
@@ -646,4 +661,3 @@ button:hover::before {
 }
 
 /* footer end */
-
