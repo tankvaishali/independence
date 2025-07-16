@@ -25,8 +25,8 @@ const Host = () => {
 
   const imageList = [
     require("../assets/images/Social Army poster july 2025_7.jpg"),
-    require("../assets/images/Social Army poster july 2025_8.jpg"),
     require("../assets/images/Social Army poster july 2025_9.jpg"),
+    require("../assets/images/Social Army poster july 2025_8.jpg"),
   ];
 
   return (
@@ -51,10 +51,9 @@ const Host = () => {
           <div className="independence-badge mb-3">
             <span>⭐ An Event By  ✨</span>
           </div>
-          <h1 className="main-title">
-            Meet Your Event Host
-          </h1>
-
+          <div className="main-title text-capitalize mx-auto fs-3">
+            Celebrate Independence Day with "Social Army Trust" <div>through an engaging live panel discussion.</div>
+          </div>
         </div>
 
         {/* <div className="row align-items-center mt-4">
