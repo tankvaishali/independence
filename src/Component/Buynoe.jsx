@@ -113,7 +113,7 @@ function Buynow() {
                                         </div>
                                         <div className="title fs-4 ps-1 col-8 ">Social Army Trust</div>
                                     </div>
-                                    <div className="title fs-3 mt-3 mb-2 "><span className="text-success fw-bold">Independance Day Event</span> In Surat</div>
+                                    <div className="title fs-3 mt-3 mb-2 "><span className="text-success fw-bold">Independence Day Event</span> In Surat</div>
                                     <div className="rounded" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
                                     <div className="my-3">
                                         <div><span className="fw-bold ">Date :</span> 15 Augest 2025</div>
@@ -138,7 +138,7 @@ function Buynow() {
                                 <div className="h-100">
                                     <div className="bg-white shadow p-4">
                         
-                                        <div className="title fs-5  fw-bold"> <span className="text-orange">Independance Day</span> Event Registration Form 🧡🤍💚</div>
+                                        <div className="title fs-5  fw-bold"> <span className="text-orange">Independence Day</span> Event Registration Form 🧡🤍💚</div>
                                         <div className="rounded mt-2" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
                             
 

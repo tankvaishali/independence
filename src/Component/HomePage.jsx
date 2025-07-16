@@ -22,8 +22,7 @@ function HomeCarousel() {
                             <div className='text-center '>
                                 <img src={require("../assets/images/2.png")} alt="" className='img-fluid  ' width={150}/>
                             </div>
-                                <h1 className=' pt-4 fw-bold  text-center animate__animated tricolor-text'>आज़ादी का रंग, फौजी के संग  
-                                2.0 </h1>
+                                <h1 className=' pt-4 fw-bold  text-center animate__animated tricolor-text'>आज़ादी का रंग, फौजी के संग 2.0 </h1>
                                
                             </div>
                         </div>

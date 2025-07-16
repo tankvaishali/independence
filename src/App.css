@@ -61,11 +61,11 @@ button::before {
 }
 
 button:hover::after {
-  width: 37%;
+  width: 32%;
 }
 
 button:hover::before {
-  width: 37%;
+  width: 32%;
 }
 /* buttonhover end */
 /* Homecarousel start */
@@ -85,6 +85,16 @@ button:hover::before {
   font-size: 100px;
 }
 
+@media screen and (max-width: 1400px) {
+  .tricolor-text {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tricolor-text {
+    font-size: 70px;
+  }
+}
 @media screen and (max-width: 961px) {
   .tricolor-text {
     font-size: 60px;
