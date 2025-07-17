@@ -24,12 +24,12 @@ function Sponser() {
           <div className="row justify-content-center mb-2">
             <div className="col-lg-8 text-center">
               <div className="header-content" >
-                <div className="independence-badge mb-3">
+                {/* <div className="independence-badge mb-3">
                   <span>⭐ Our Sponsers  ✨</span>
-                </div>
+                </div> */}
 
                 <h2 className="ftittle fw-bold m-0 p-0 text-capitalize" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
-                  Commercial Sponsorship
+                  Our Supporters
                 </h2>
                 <p className="pera pt-2">
                   Let us work together to support
@@ -56,19 +56,33 @@ function Sponser() {
               </div>
             </div>
 
-            {/* <div data-aos="zoom-in"
+            <div data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-delay="500"
               data-aos-once="true">
               <div className="certificate-item h-100 d-flex align-items-center"   >
                 <img
-                  src="https://gujaratmobile.in/wp-content/uploads/2025/04/cropped-WhatsApp-Image-2024-12-19-at-17.16.48.jpeg"
+                  src={require("../assets/images/images-removebg-preview.png")}
                   alt="Halal Logo"
                   className="img-fluid"
                 />
                 <div className="certificate-glow"></div>
               </div>
-            </div> */}
+            </div>
+
+            <div data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+              data-aos-once="true">
+              <div className="certificate-item h-100 d-flex align-items-center"   >
+                <img
+                  src={require("../assets/images/images__1___1_-removebg-preview.png")}
+                  alt="Halal Logo"
+                  className="img-fluid"
+                />
+                <div className="certificate-glow"></div>
+              </div>
+            </div>
 
 
           </div>

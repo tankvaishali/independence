@@ -5,10 +5,10 @@ import { RiArrowRightDoubleLine } from 'react-icons/ri'
 function Aboutus() {
     return (
         <>
-            <div className=' overflow-hidden'>
-                <div className='clientmain_bg'>
+            <div className='overflow-hidden'>
+                <div className='clientmain_bg py-5'>
                     <div className='container'>
-                        <div className="row align-items-center align-content-center justify-content-center gx-5 pt-5 py-4">
+                        {/* <div className="row align-items-center align-content-center justify-content-center gx-5 pt-5 py-4">
                             <div className=' col-lg-7 col-sm-12  z-2' data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
                                 <div className="independence-badge mb-3">
                                     <span>⭐ About
@@ -47,6 +47,33 @@ function Aboutus() {
                                 <div style={{ marginTop: "-320px" }}>
                                     <div className="client_image test-shine" data-aos="fade-up" data-aos-duration="1800" data-aos-once="true">
                                         <img src={require("../assets/images/4copy.jpg")} className="img-fluid object-fit-cover" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        <div className="main-title text-capitalize mx-auto fs-3 text-center text-white">
+                            Financial Support To martyr Families <div>Of The Indian Armed Forces</div>
+                        </div>
+                        <div className='row mt-2'>
+                            <div className='col-12 col-lg-4 p-3'>
+                                <div className='h-100'>
+                                    <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
+                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-12 col-lg-4 p-3'>
+                                <div className='h-100'>
+                                    <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
+                                        <img src={require("../assets/images/17.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-12 col-lg-4 p-3'>
+                                <div className='h-100'>
+                                    <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
+                                        <img src={require("../assets/images/18.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
                                     </div>
                                 </div>
                             </div>

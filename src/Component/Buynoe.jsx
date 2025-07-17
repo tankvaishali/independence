@@ -117,7 +117,7 @@ function Buynow() {
                                         <div><span className="fw-bold ">Venue :</span> Sampada Festivity, Kosmada Ring Road, Surat.</div>
                                     </div>
                                     <div className="w-100 h-100">
-                                        <img src={require("../assets/images/2.0.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
+                                        <img src={require("../assets/images/independance_poster_logo.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
                                     </div>
                                     <div className="my-3">
                                         <div className="fw-bold ">Contact Us :</div>
@@ -198,14 +198,16 @@ function Buynow() {
                                             <div className='text-danger w-75 ms-auto'>{errormsg.pass}</div>
                                         </div>
 
-                                        <div className="text-dark fw-bold my-3" style={{ fontSize: "12px" }}>
+                                        <div className="text-dark fw-bold mt-3" style={{ fontSize: "12px" }}>
                                             નોંધ - રજીસ્ટ્રેશન કર્યા પછી પાસ જે તે સેંટર પર આવશે એટલે કોલ કરી જાણકારી આપવામાં આવશે, ફિઝિકલ પાસ લેવો ફરજીયાત છે.
                                         </div>
+                                        <div className='fw-bold mt-2' style={{ fontSize: "12px" }}>નોંધ - જે પણ રાશિ એકત્રિત થશે, તે સંપૂર્ણ રીતે શહીદ પરિવારને સન્માનરૂપે અર્પણ કરવામાં આવશે.</div>
 
-                                        <button className="buttons btns w-100 btn text-white" type="button" onClick={savedata}
+                                        <button className="mt-3 buttons btns w-100 btn text-white" type="button" onClick={savedata}
                                             style={{ fontFamily: "Sora, Sans-serif", fontWeight: 700, backgroundColor: "#001041" }}>
                                             Submit
                                         </button>
+
                                     </div>
                                 </div>
                             </div>

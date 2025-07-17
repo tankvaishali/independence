@@ -24,8 +24,10 @@ const Host = () => {
   // ]
 
   const imageList = [
-    require("../assets/images/Social Army poster july 2025_7.jpg"),
+    require("../assets/images/Media (1).jpeg"),
     require("../assets/images/Social Army poster july 2025_9.jpg"),
+    require("../assets/images/Social Army poster july 2025_7.jpg"),
+    require("../assets/images/Media (2).jpeg"),
     require("../assets/images/Social Army poster july 2025_8.jpg"),
   ];
 
@@ -149,7 +151,7 @@ const Host = () => {
           </div>
         </div> */}
 
-        <div className='row mt-2'>
+        <div className='row mt-2 justify-content-center'>
           {imageList.map((image, index) => (
             <div className='col-12 col-lg-4 p-3' key={index}>
               <div className='h-100'>
