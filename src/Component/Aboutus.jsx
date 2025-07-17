@@ -66,14 +66,14 @@ function Aboutus() {
                             <div className='col-12 col-lg-4 p-3'>
                                 <div className='h-100'>
                                     <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
-                                        <img src={require("../assets/images/17.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
+                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
                                     </div>
                                 </div>
                             </div>
                             <div className='col-12 col-lg-4 p-3'>
                                 <div className='h-100'>
                                     <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
-                                        <img src={require("../assets/images/18.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
+                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
                                     </div>
                                 </div>
                             </div>
