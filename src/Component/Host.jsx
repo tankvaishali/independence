@@ -28,7 +28,7 @@ const Host = () => {
     require("../assets/images/Social Army poster july 2025_9.jpg"),
     require("../assets/images/Social Army poster july 2025_7.jpg"),
     require("../assets/images/Media (2).jpeg"),
-    require("../assets/images/Social Army poster july 2025_8.jpg"),
+    // require("../assets/images/Social Army poster july 2025_8.jpg"),
   ];
 
   return (
@@ -49,10 +49,7 @@ const Host = () => {
 
       <div className="container ">
 
-        <div className="text-center  header-section">
-          <div className="independence-badge mb-3">
-            <span>⭐ An Event By  ✨</span>
-          </div>
+        <div className="text-center header-section">
           <div className="main-title text-capitalize mx-auto fs-3">
             Celebrate Independence Day with "Social Army Trust" <div>through an engaging live panel discussion.</div>
           </div>
@@ -151,9 +148,9 @@ const Host = () => {
           </div>
         </div> */}
 
-        <div className='row mt-2 justify-content-center'>
+        <div className='row mt-3 justify-content-center'>
           {imageList.map((image, index) => (
-            <div className='col-12 col-lg-4 p-3' key={index}>
+            <div className='col-12 col-lg-3 p-2' key={index}>
               <div className='h-100'>
                 <div
                   className='p-2'
@@ -171,6 +168,25 @@ const Host = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center header-section mt-4">
+          <div className="main-title text-capitalize mx-auto fs-3">
+            Suno main Bharat - The Live In Concert
+          </div>
+        </div>
+        <div className="row justify-content-center my-3">
+          <div className="col-12 col-lg-3">
+            <div className="h-100">
+              <div className='p-2'
+                style={{
+                  border: "5px groove green",
+                  boxShadow: "7px 7px 0px green",
+                }}>
+                <img src={require("../assets/images/Social Army poster july 2025_8.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>

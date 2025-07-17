@@ -1,6 +1,4 @@
 import React from 'react'
-import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
-import { RiArrowRightDoubleLine } from 'react-icons/ri'
 
 function Aboutus() {
     return (
@@ -55,21 +53,7 @@ function Aboutus() {
                         <div className="main-title text-capitalize mx-auto fs-3 text-center text-white">
                             Financial Support To martyr Families <div>Of The Indian Armed Forces</div>
                         </div>
-                        <div className='row mt-2'>
-                            <div className='col-12 col-lg-4 p-3'>
-                                <div className='h-100'>
-                                    <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
-                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-12 col-lg-4 p-3'>
-                                <div className='h-100'>
-                                    <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
-                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
-                                    </div>
-                                </div>
-                            </div>
+                        <div className='row mt-2 justify-content-center'>
                             <div className='col-12 col-lg-4 p-3'>
                                 <div className='h-100'>
                                     <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
@@ -81,8 +65,6 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
-
-
         </>
     )
 }

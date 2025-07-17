@@ -21,8 +21,9 @@ function Footer() {
         <div className='text-center py-5 text-light footerbg'>
             <div className='container'>
                 <div style={{ fontFamily: "Sora, Sans-serif" }}>
-                    <p className='h3'>
-                        Venue: Sampada Festivity, Kosmada Ring Road, Surat.
+                    <p className='h3 fw-bold' style={{ textShadow: "6px 7px 10px #310101cb" }}>
+                        <div className='mb-2 tricolor-rounded-underline' style={{ textShadow: "6px 7px 10px #31010170" }}>Venue:</div>
+                        <div>Sampada Festivity, Kosmada Ring Road, Surat.</div>
                     </p>
                     <p className='h3 p-4 pb-0 mb-3 Call_tittle'>
                         <span className="p-1 px-3 rounded-4" style={{ backgroundColor: "#f17f00" }}>
@@ -44,7 +45,7 @@ function Footer() {
                                                 onClick={() => makeCall(number)}
                                                 style={{ cursor: 'pointer' }}
                                             >
-                                              <BiSolidPhoneCall />
+                                                <BiSolidPhoneCall />
                                             </div>
                                             <div
                                                 className='text-success fs-3 d-flex align-items-center justify-content-center ms-2 cursor-pointer'
