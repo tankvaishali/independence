@@ -28,7 +28,12 @@ function Sponser() {
                   <span>⭐ Our Sponsers  ✨</span>
                 </div> */}
 
-                <h2 className="ftittle fw-bold m-0 p-0 text-capitalize" style={{ textShadow: "6px 7px 10px #31010170" }} data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
+                <h2
+                  className="ftittle fw-bold m-0 p-0 text-capitalize main-title"
+                  data-aos="fade-down"
+                  data-aos-duration="1500"
+                  data-aos-once="true"
+                >
                   Our Supporters
                 </h2>
                 <p className="pera pt-2">

@@ -107,8 +107,11 @@ function Buynow() {
                                         </div>
                                         <div className="title fs-4 ps-1 col-8 fw-bold">Social Army Trust</div>
                                     </div>
-                                    <div className="title fs-3 mt-3 mb-2 main-title">
+                                    {/* <div className="title fs-3 mt-3 mb-2 main-title">
                                         Independence Day Event <span>In Surat</span>
+                                    </div> */}
+                                    <div className="title fs-3 mt-3 mb-2 main-title">
+                                        आज़ादी का रंग, फौजी के संग 2.0
                                     </div>
                                     <div className="rounded" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
                                     <div className="my-3">
@@ -135,7 +138,7 @@ function Buynow() {
                             <div className="col-12 col-lg-6 px-2 pb-4 p-lg-5">
                                 <div className="h-100">
                                     <div className="bg-white shadow p-4">
-                                        <div className="title fs-5 fw-bold"><span className="main-title" style={{ fontSize: "17px" }}>Independence Day Event Registration Form</span> 🧡🤍💚
+                                        <div className="title fs-5 fw-bold"><span className="main-title" style={{ fontSize: "17px" }}>आज़ादी का रंग, फौजी के संग 2.0 – Registration Form</span> 🧡🤍💚
                                         </div>
                                         <div className="rounded mt-2" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
 

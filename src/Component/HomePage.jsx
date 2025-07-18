@@ -23,8 +23,8 @@ function HomeCarousel() {
                                 {/* <h1 className=' pt-4 fw-bold  text-center animate__animated tricolor-text'>आज़ादी का रंग, फौजी के संग 2.0 </h1> */}
                             </div>
                         </div>
-                        <div className='col-md-6 col-11 mx-auto animate__animated animate__bounceInRight animate__slower text-center text-lg-start' style={{ marginTop: 'auto' }}>
-                            <img src={require('../assets/images/Media-removebg-preview-Picsart-AiImageEnhancer.png')} alt="" className='img-fluid homepage_image' />
+                        <div className='col-md-6 col-11 mx-auto animate__animated animate__bounceInRight animate__slower text-center' style={{ marginTop: 'auto' }}>
+                            <img src={require('../assets/images/WhatsApp_Image_2025-07-18_at_12.14.20_fa460f97-removebg-preview.png')} alt="" className='img-fluid homepage_image' />
                         </div>
                     </div>
                 </div>

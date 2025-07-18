@@ -123,19 +123,24 @@
   animation: pulse 2s infinite;
 }
 
-.main-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
+.gradient-text {
   font-size: 2rem;
-  background: linear-gradient(
-    to right,
-    #ff9933,
-    #138808
-  ); /* Saffron to Green */
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  color: green;
+  text-shadow: 2px 2px 0 #ff9933, 4px 4px 0 #ffffff;
+}
+
+.main-title {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  background: linear-gradient(to right, orange, green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Anton", sans-serif;
   text-shadow: none;
-  text-shadow: 6px 7px 10px #31010170;
+  text-shadow: 6px 7px 10px rgba(0, 0, 0, 0.438);
 }
 
 .text-orange {

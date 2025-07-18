@@ -21,10 +21,15 @@ function Footer() {
         <div className='text-center py-5 text-light footerbg'>
             <div className='container'>
                 <div style={{ fontFamily: "Sora, Sans-serif" }}>
-                    <p className='h3 fw-bold' style={{ textShadow: "6px 7px 10px #310101cb" }}>
-                        <div className='mb-2 tricolor-rounded-underline' style={{ textShadow: "6px 7px 10px #31010170" }}>Venue:</div>
-                        <div>Sampada Festivity, Kosmada Ring Road, Surat.</div>
-                    </p>
+                    <div className="venue-card text-center text-md-start mb-2" data-aos="zoom-in" data-aos-duration="1200">
+                        <h3 className="venue-heading text-center">
+                            📍<span className="venue-text fw-bold">Venue</span>
+                        </h3>
+                        <p className="venue-location text-center mt-4 fw-bold">
+                            Sampada Festivity, Kosmada Ring Road, Surat.
+                        </p>
+                    </div>
+
                     <p className='h3 p-4 pb-0 mb-3 Call_tittle'>
                         <span className="p-1 px-3 rounded-4" style={{ backgroundColor: "#f17f00" }}>
                             TO BOOK YOUR SEAT CALL NOW

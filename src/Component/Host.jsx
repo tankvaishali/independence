@@ -24,7 +24,7 @@ const Host = () => {
   // ]
 
   const imageList = [
-    require("../assets/images/Media (1).jpeg"),
+    require("../assets/images/Social Army poster july 2025_10___event poster.jpg"),
     require("../assets/images/Social Army poster july 2025_9.jpg"),
     require("../assets/images/Social Army poster july 2025_7.jpg"),
     require("../assets/images/Media (2).jpeg"),
@@ -50,8 +50,10 @@ const Host = () => {
       <div className="container ">
 
         <div className="text-center header-section">
-          <div className="main-title text-capitalize mx-auto fs-3">
-            Celebrate Independence Day with "Social Army Trust" <div>through an engaging live panel discussion.</div>
+          <div className="text-center mx-auto">
+            <span className="gradient-text">Celebrate Independence Day</span>
+            <span className="gradient-text"> with "Social Army Trust"</span>
+            <div className="gradient-text">through an engaging live panel discussion.</div>
           </div>
         </div>
 
@@ -171,7 +173,7 @@ const Host = () => {
         </div>
 
         <div className="text-center header-section mt-4">
-          <div className="main-title text-capitalize mx-auto fs-3">
+          <div className="text-capitalize mx-auto fs-3 gradient-text">
             Suro Mein Bharat – The Live In Concert
           </div>
         </div>

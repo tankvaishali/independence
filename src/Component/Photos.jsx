@@ -18,8 +18,13 @@ const Photos = () => {
         <>
             <div className="darkviolet py-5 photos_bg">
                 <div className="container">
-                    <h2 className="ftittle fw-bold m-0 p-0 text-capitalize text-center mb-4" style={{ textShadow: "6px 7px 10px #31010170" }} data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
-                        Our Past Event
+                    <h2
+                        className="ftittle fw-bold m-0 p-0 text-capitalize text-center mb-4 main-title"
+                        data-aos="fade-down"
+                        data-aos-duration="1500"
+                        data-aos-once="true"
+                    >
+                        We Celebrated Our Glorious Past With Pride
                     </h2>
                     <div className="containerimg mx-auto">
                         {images.map((image, index) => (
