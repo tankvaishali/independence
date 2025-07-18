@@ -124,14 +124,20 @@
 }
 
 .gradient-text {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Anton", sans-serif;
   letter-spacing: 3px;
+  text-transform: capitalize;
   font-weight: bold;
   color: green;
-  text-shadow:  4px 4px 0 #ffffffbd;
+  text-shadow: 4px 4px 0 #ffffffbd;
 }
 
+@media (max-width: 576px) {
+  .gradient-text {
+    font-size: 20px;
+  }
+}
 .main-title {
   font-weight: bold;
   letter-spacing: 2px;

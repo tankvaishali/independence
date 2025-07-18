@@ -689,7 +689,7 @@ button:hover::before {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
   color: white;
-  max-width: 500px;
+  max-width: 580px;
   margin: auto;
   position: relative;
 }
