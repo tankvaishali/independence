@@ -124,23 +124,24 @@
 }
 
 .gradient-text {
-  font-size: 2rem;
+  font-size: 26px;
   font-family: "Anton", sans-serif;
   letter-spacing: 3px;
+  font-weight: bold;
   color: green;
-  text-shadow: 2px 2px 0 #ff9933, 4px 4px 0 #ffffff;
+  /* text-shadow: 2px 2px 0 #ff9933, 4px 4px 0 #ffffff; */
 }
 
 .main-title {
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 2rem;
+  font-size: 30px;
   background: linear-gradient(to right, orange, green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Anton", sans-serif;
   text-shadow: none;
-  text-shadow: 6px 7px 10px rgba(0, 0, 0, 0.438);
+  /* text-shadow: 6px 7px 10px rgba(0, 0, 0, 0.438); */
 }
 
 .text-orange {
