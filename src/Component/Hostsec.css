@@ -138,6 +138,26 @@
     font-size: 20px;
   }
 }
+.brdstart {
+  position: relative;
+  padding-left: 20px;
+}
+
+.brdstart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to bottom, #ff9800, #fdd835, #388e3c);
+  border-left: 2px groove rgba(255, 255, 255, 0.5);
+  border-right: 2px groove rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: inset 1px 0px 1px rgba(255, 255, 255, 0.6),
+    inset -1px 0px 1px rgba(0, 0, 0, 0.2);
+}
+
 .main-title {
   font-weight: bold;
   letter-spacing: 2px;
