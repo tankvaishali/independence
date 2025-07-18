@@ -51,7 +51,7 @@ function Aboutus() {
                         </div> */}
 
                         <div className="main-title text-capitalize mx-auto fs-3 text-center text-white">
-                            Financial Support To martyr Families <div>Of The Indian Armed Forces</div>
+                            Supporting the kin of Indian Armed Forces <div>personnel who have made the ultimate sacrifice</div>
                         </div>
                         <div className='row mt-2 justify-content-center'>
                             <div className='col-12 col-lg-4 p-3'>

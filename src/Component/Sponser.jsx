@@ -32,10 +32,7 @@ function Sponser() {
                   Our Supporters
                 </h2>
                 <p className="pera pt-2">
-                  Let us work together to support
-                  this major event and boost your
-                  marketing or CSR plan with Social
-                  Army.
+                  Join forces with us to make this event a success and enhance your company's social responsibility efforts and marketing strategy with Social Army.
                 </p>
               </div>
             </div>

@@ -669,11 +669,10 @@ button:hover::before {
 
 /* footer start */
 .footerbg {
-  box-shadow: inset rgba(0, 0, 0, 0.58) 0px 0px 0px 1500px;
-  background-image: url("https://ganeshhousing.com/assets/main/images/blog/blog40_1.jpg");
+  box-shadow: inset rgba(0, 0, 0, 0.235) 0px 0px 0px 1500px;
+  background-image: url("https://t4.ftcdn.net/jpg/07/13/90/33/240_F_713903311_dH8lW2ehLp04YVBXUZcAU1ocQfAd1lX7.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
   background-size: cover;
 }
 
@@ -695,11 +694,6 @@ button:hover::before {
   height: 5px;
   width: 100%;
   border-radius: 10px;
-  background: linear-gradient(
-    to right,
-    #ff9933,
-    #ffffff,
-    #138808
-  );
+  background: linear-gradient(to right, #ff9933, #ffffff, #138808);
 }
 /* footer end */

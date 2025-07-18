@@ -172,7 +172,7 @@ const Host = () => {
 
         <div className="text-center header-section mt-4">
           <div className="main-title text-capitalize mx-auto fs-3">
-            Suno main Bharat - The Live In Concert
+            Suro Mein Bharat – The Live In Concert
           </div>
         </div>
         <div className="row justify-content-center my-3">
