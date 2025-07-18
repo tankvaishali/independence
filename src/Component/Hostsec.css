@@ -124,18 +124,18 @@
 }
 
 .gradient-text {
-  font-size: 26px;
+  font-size: 20px;
   font-family: "Anton", sans-serif;
   letter-spacing: 3px;
   font-weight: bold;
   color: green;
-  /* text-shadow: 2px 2px 0 #ff9933, 4px 4px 0 #ffffff; */
+  text-shadow:  4px 4px 0 #ffffffbd;
 }
 
 .main-title {
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 25px;
   background: linear-gradient(to right, orange, green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -793,7 +793,7 @@
   }
 
   .main-title {
-    font-size: 2rem;
+    font-size: 23px;
   }
 
   .content-title {

@@ -681,30 +681,15 @@ button:hover::before {
     font-size: 15px !important;
   }
 }
-.tricolor-rounded-underline {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px;
-}
-.tricolor-rounded-underline::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  width: 100%;
-  border-radius: 10px;
-  background: linear-gradient(to right, #ff9933, #ffffff, #138808);
-}
 .venue-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.354);
   padding: 20px 30px;
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
   color: white;
-  max-width: 700px;
+  max-width: 500px;
   margin: auto;
   position: relative;
 }
